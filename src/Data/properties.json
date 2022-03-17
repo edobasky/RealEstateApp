@@ -1,0 +1,42 @@
+[{
+  "Id" : 1,
+  "Name" : "Edore House",
+  "Type" : "House",
+  "Price" : 120000
+},
+{
+  "Id" : 2,
+  "Name" : "Eron House",
+  "Type" : "House",
+  "Price" :12400
+},
+{
+  "Id" : 3,
+  "Name" : "Mark House",
+  "Type" : "House",
+  "Price" : 18000
+},
+{
+  "Id" : 4,
+  "Name" : "young House",
+  "Type" : "House",
+  "Price" : 13500
+},
+{
+  "Id" : 5,
+  "Name" : "edith House",
+  "Type" : "House",
+  "Price" : 120000
+},
+{
+  "Id" : 6,
+  "Name" : "Eniola House",
+  "Type" : "House",
+  "Price" : 128000
+},
+{
+  "Id" : 7,
+  "Name" : "Mae House",
+  "Type" : "House",
+  "Price" : 45000
+}]

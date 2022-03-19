@@ -1,3 +1,43 @@
-<p>
+<!-- <p>
   add-property works!
-</p>
+  <button (click)="onBack()" class="btn btn-primary">Back</button>
+</p> -->
+
+<div class="card">
+  <div class="card-header">
+    <h2>List your Property</h2>
+  </div>
+  <div class="card-body">
+    <form (submit) = "onSubmit(Form)" #Form="ngForm">
+      <div>
+        <tabset>
+          <tab heading="Basic Info">
+            <div class="form-group col-12">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" #propName="ngModel" ngModel name="name" required>
+              <span *ngIf="!propName.valid && propName.touched" class="error-block">Please provide name</span>
+            </div>
+            <div class="form-group col-12">
+              <label for="type">Type</label>
+              <input type="text" class="form-control" ngModel name="type">
+            </div>
+            <div class="form-group col-12">
+              <label for="name">Price</label>
+              <input type="text" class="form-control" ngModel name="price">
+            </div>
+            <div class="form-group col-12 mt-2">
+              <button type="button" class="btn btn-primary btn-block">Next</button>
+
+            </div>
+
+          </tab>
+          <tab heading="Pricing and Area">Pricing Information</tab>
+          <tab heading="Address">Address</tab>
+          <tab heading="Other Details">Other Details</tab>
+          <tab heading="Photos">Upload photos</tab>
+        </tabset>
+      </div>
+
+    </form>
+  </div>
+</div>

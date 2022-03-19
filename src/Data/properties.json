@@ -1,42 +1,63 @@
 [{
   "Id" : 1,
+  "SellRent" : 1,
   "Name" : "Edore House",
-  "Type" : "House",
-  "Price" : 120000
+  "Type" : "Glass House",
+  "Price" : 120000,
+  "Image" : "prop"
 },
 {
   "Id" : 2,
+  "SellRent" : 1,
   "Name" : "Eron House",
   "Type" : "House",
-  "Price" :12400
+  "Price" :12400,
+  "Image" : "prop1"
 },
 {
   "Id" : 3,
+  "SellRent" : 2,
   "Name" : "Mark House",
-  "Type" : "House",
-  "Price" : 18000
+  "Type" : "Duplex",
+  "Price" : 18000,
+  "Image" : "prop2"
 },
 {
   "Id" : 4,
+  "SellRent" : 1,
   "Name" : "young House",
   "Type" : "House",
-  "Price" : 13500
+  "Price" : 13500,
+  "Image" : "prop3"
 },
 {
   "Id" : 5,
+  "SellRent" : 2,
   "Name" : "edith House",
-  "Type" : "House",
-  "Price" : 120000
+  "Type" : "Castle",
+  "Price" : 120000,
+  "Image" : "prop4"
 },
 {
   "Id" : 6,
+  "SellRent" : 1,
   "Name" : "Eniola House",
   "Type" : "House",
-  "Price" : 128000
+  "Price" : 128000,
+  "Image" : "prop5"
 },
 {
   "Id" : 7,
+  "SellRent" : 2,
   "Name" : "Mae House",
   "Type" : "House",
-  "Price" : 45000
+  "Price" : 45000,
+  "Image" : "prop7"
+},
+{
+  "Id" : 8,
+  "SellRent" : 1,
+  "Name" : "kalifa House",
+  "Type" : "House",
+  "Price" : 35000
 }]
